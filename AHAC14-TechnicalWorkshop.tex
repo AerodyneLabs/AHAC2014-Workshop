@@ -1,4 +1,4 @@
-\documentclass[]{beamer}
+\documentclass[t]{beamer}
 
 \title{Technical Workshop}
 \subtitle{Academic High Altitude Conference}
@@ -6,7 +6,21 @@
 \institute{Stratospheric Ballooning Association}
 \date{June 23-24, 2014}
 
-\usetheme{Antibes}
+\usetheme{Warsaw}
+
+\makeatletter
+\numberwithin{section}{part}
+\AtBeginPart{
+	\beamer@tocsectionnumber=0\relax
+	\setcounter{section}{0}
+}
+\makeatother
+
+\AtBeginSection{
+	\begin{frame}{Outline}
+	\tableofcontents[currentsection]
+	\end{frame}
+}
 
 \begin{document}
 
