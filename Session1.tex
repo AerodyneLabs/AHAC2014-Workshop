@@ -30,22 +30,49 @@
 
 \begin{frame}
 	\frametitle{Hardware Development Kit}
+	The mbed Hardware Development Kit provides ready to use boards like the Nucleo as well as open source tools to develop custom boards.
+	\begin{itemize}
+		\item CMSIS-DAP based USB drag-n-drop programmer and debugger
+		\item Virtual serial port
+	\end{itemize}
 \end{frame}
 
 \begin{frame}[t]
 	\frametitle{Online Development Tools}
+	\begin{columns}[T]
+		\begin{column}{0.5\textwidth}
+			\begin{itemize}
+				\item Professional ARM C/C++ compiler with optimization
+				\item Cloud based IDE that allows you to work from anywhere
+				\item Tightly integrated with a Mercurial based version control system
+				\item Search, import, and publish open source libraries
+				\item Export to several offline toolchains
+			\end{itemize}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\includegraphics[width=\linewidth]{compiler}
+		\end{column}
+	\end{columns}
 \end{frame}
 
 \section{Nucleo Platform}
 \begin{frame}
 	\frametitle{Nucleo F401RE}
-	The Nucleo platform combines a programmer/debugger and an STM32 based development board with Arduino compatible expansion headers.
-	\begin{itemize}
-		\item Up to 84 MHz clock speed
-		\item 512 KBytes flash memory
-		\item 12-bit 2.4 Msps ADC with up to 10 channels
-		\item Three hardware USART ports
-		\item Three hardware SPI ports
-		\item Three hardware I2C ports
-	\end{itemize}
+	\begin{columns}[T]
+		\begin{column}{0.5\textwidth}
+			The Nucleo platform combines a programmer/debugger and an STM32 based development board with Arduino compatible expansion headers.
+			\begin{itemize}
+				\item Up to 84 MHz clock speed
+				\item 512 KBytes flash memory
+				\item 12-bit 2.4 Msps ADC with up to 10 channels
+				\item Three hardware USART
+				\item Three hardware SPI
+				\item Three hardware I2C
+			\end{itemize}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			%XXX center vertically
+			\includegraphics[width=\linewidth]{nucleo}
+		\end{column}
+	\end{columns}
 \end{frame}
