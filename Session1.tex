@@ -118,3 +118,66 @@
 		\end{column}
 	\end{columns}
 \end{frame}
+
+\section{mbed Basics}
+\subsection{Your Own Program}
+\begin{frame}
+	\frametitle{Create an Empty Program}
+	\begin{columns}[T]
+		\begin{column}{0.5\textwidth}
+			%TODO Edit import_library
+			\includegraphics[width=\linewidth]{import_library}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{enumerate}
+				\item Create a new program with "Empty Program" as the template
+				\item Create a new file named "main.cpp"
+				\item Click Import and search for "mbed"
+			\end{enumerate}
+		\end{column}
+	\end{columns}
+	\begin{block}{Notice}
+		The mbed library is required for every mbed based program
+	\end{block}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Write Your First Program}
+	\lstinputlisting[language=C++,caption=main.cpp]{snippets/first_program/1.cpp}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Breaking Down main.cpp}
+	\lstinputlisting[language=C++, firstline=1, lastline=1, firstnumber=1]{snippets/first_program/1.cpp}
+	\lstinline[language=C++]$#include$ directive is used to include another file, in this case "mbed.h".
+	You will use this to include libraries in your program.
+	You can also split your program into multiple files and combine them using the include directive.
+	
+	\lstinputlisting[language=C++, firstline=3, lastline=3, firstnumber=3]{snippets/first_program/1.cpp}
+	\lstinline[language=C++]$DigitalOut$ is a class from the mbed library that supports digital output.
+	The library also provides \lstinline[language=C++]$DigitalIn$ and \lstinline[language=C++]$DigitalInOut$ for inputs and bidirection pins.
+	This line creates an object named \lstinline[language=C++]$led$ that is attached to the \lstinline[language=C++]$LED1$ pin.
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Breaking Down main.cpp}
+	\lstinputlisting[language=C++, firstline=5, lastline=5, firstnumber=5]{snippets/first_program/1.cpp}
+	This line declares a function called \lstinline[language=C++]$main$ that takes no parameters and returns an integer.
+	Every program needs a function with this signature, it is used as the entry point to the program.
+	
+	\lstinputlisting[language=C++, firstline=6, lastline=6, firstnumber=6]{snippets/first_program/1.cpp}
+	This is an example of a type of loop.
+	It runs while the condition inside the parentheses is true, in the case, always.
+	This loop will never terminate because a microcontroller program should never exit.
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Breaking Down main.cpp}
+	\lstinputlisting[language=C++, firstline=7, lastline=10, firstnumber=7]{snippets/first_program/1.cpp}
+	This is what makes the LED flash.\\
+	Writing a 1 to an output pin sets the pin high, and a 0 sets the pin low.
+	\lstinline[language=C++]$wait(sec)$ is a function provided by the mbed library that halts the program.
+	\begin{block}{Try It Yourself}
+		Try changing the wait times or making your own patterns.
+	\end{block}
+\end{frame}
