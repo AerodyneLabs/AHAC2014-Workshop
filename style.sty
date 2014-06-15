@@ -1,0 +1,41 @@
+\ProvidesPackage{style}
+
+\usetheme{Warsaw}
+
+\makeatletter
+\numberwithin{section}{part}
+\AtBeginPart{
+	\beamer@tocsectionnumber=0\relax
+	\setcounter{section}{0}
+}
+\makeatother
+
+\AtBeginSection{
+	\begin{frame}{Outline}
+	\tableofcontents[currentsection]
+	\end{frame}
+}
+
+\graphicspath{ {./img/} }
+
+\usepackage{listings}
+\lstset{
+	basicstyle=\ttfamily,
+	keywordstyle=\color{blue}\ttfamily,
+	stringstyle=\color{red}\ttfamily,
+	commentstyle=\color{green}\ttfamily,
+	morecomment=[l][\color{green}]{\#},
+	numbers=left,
+	tabsize=2
+}
+
+% Fix font size warnings
+\usepackage{lmodern}
+
+\usepackage{tikz-timing}
+
+\logo{
+	\href{http://www.aerodynelabs.com}{
+		\includegraphics[height=0.05\paperheight]{AeroDyne_Banner}
+	}
+}

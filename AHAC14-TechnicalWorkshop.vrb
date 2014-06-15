@@ -1,5 +1,5 @@
 \frametitle{Breaking Down main.cpp}
-\lstinputlisting[firstline=7, lastline=10, firstnumber=7]{snippets/first_program/1.cpp}
+\lstinputlisting[firstline=7, lastline=10, firstnumber=7]{code/first_program/1.cpp}
 This is what makes the LED flash.\\
 Writing a 1 to an output pin sets the pin high, and a 0 sets the pin low.
 \lstinline{wait(sec)} is a function provided by the mbed library that halts the program.
