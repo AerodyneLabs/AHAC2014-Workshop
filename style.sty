@@ -2,6 +2,11 @@
 
 \usetheme{Warsaw}
 
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\beamer@sectionintoc}{\vskip1.5em}{\vskip0.5em}{}{}
+\makeatother
+
 \makeatletter
 \numberwithin{section}{part}
 \AtBeginPart{
@@ -12,7 +17,7 @@
 
 \AtBeginSection{
 	\begin{frame}{Outline}
-	\tableofcontents[currentsection]
+	\tableofcontents[currentsection, hideothersubsections]
 	\end{frame}
 }
 
