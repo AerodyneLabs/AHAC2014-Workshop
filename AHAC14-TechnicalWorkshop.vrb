@@ -1,8 +1,11 @@
-\frametitle{Breaking Down main.cpp}
-\lstinputlisting[firstline=7, lastline=10, firstnumber=7]{code/first_program/1.cpp}
-This is what makes the LED flash.\\
-Writing a 1 to an output pin sets the pin high, and a 0 sets the pin low.
-\lstinline{wait(sec)} is a function provided by the mbed library that halts the program.
-\begin{block}{Try It Yourself}
-Try changing the wait times or making your own patterns.
+\frametitle{Waiting}
+There are three statements that can slow down execution:
+\begin{lstlisting}[numbers=none]
+void wait(float s);
+void wait_ms(int ms);
+void wait_us(int us);
+\end{lstlisting}
+All three will pause execution for the amount of time specified. Use these statements any time you need a controlled delay.
+\begin{block}{Notice}
+Wait and other block statements can have some unintended side effects. This will be demonstrated later.
 \end{block}

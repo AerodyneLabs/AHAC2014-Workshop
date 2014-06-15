@@ -3,8 +3,12 @@
 
 /* Global Variable
 	 Declarations    */
+DigitalOut led(LED1);
 
 /* Main Function */
 int main() {
-	// Program code
+	while(true) {
+		led = 1;	// Turn LED on
+		led = 0;	// Turn LED off
+	}
 }
