@@ -92,47 +92,54 @@
 \headcommand {\beamer@framepages {32}{33}}
 \headcommand {\slideentry {4}{3}{4}{34/34}{Conditional Statements}{1}}
 \headcommand {\beamer@framepages {34}{34}}
-\headcommand {\sectionentry {5}{Talking to mbed}{35}{Talking to mbed}{1}}
-\headcommand {\beamer@sectionpages {22}{34}}
-\headcommand {\beamer@subsectionpages {30}{34}}
-\headcommand {\slideentry {5}{0}{5}{35/35}{}{1}}
-\headcommand {\beamer@framepages {35}{35}}
-\headcommand {\beamer@subsectionentry {1}{5}{1}{36}{Serial Ports}}\headcommand {\beamer@subsectionpages {35}{35}}
-\headcommand {\beamer@subsectionentry {1}{5}{2}{36}{Switch/Case Statements}}\headcommand {\beamer@subsectionpages {36}{35}}
-\headcommand {\beamer@subsectionentry {1}{5}{3}{36}{Functions}}\headcommand {\beamer@subsectionpages {36}{35}}
-\headcommand {\beamer@subsectionentry {1}{5}{4}{36}{For Loops}}\headcommand {\beamer@subsectionpages {36}{35}}
-\headcommand {\sectionentry {6}{Writing Modular Code}{36}{Writing Modular Code}{1}}
-\headcommand {\beamer@sectionpages {35}{35}}
-\headcommand {\beamer@subsectionpages {36}{35}}
-\headcommand {\slideentry {6}{0}{1}{36/36}{}{1}}
-\headcommand {\beamer@framepages {36}{36}}
-\headcommand {\beamer@subsectionentry {1}{6}{1}{37}{Analog Input}}\headcommand {\beamer@subsectionpages {36}{36}}
-\headcommand {\beamer@subsectionentry {1}{6}{2}{37}{PWM Output}}\headcommand {\beamer@subsectionpages {37}{36}}
-\headcommand {\beamer@subsectionentry {1}{6}{3}{37}{Classes}}\headcommand {\beamer@subsectionpages {37}{36}}
-\headcommand {\partentry {Session 2}{2}}
-\headcommand {\beamer@partpages {2}{36}}
-\headcommand {\beamer@sectionpages {36}{36}}
-\headcommand {\beamer@subsectionpages {37}{36}}
-\headcommand {\sectionentry {1}{mbed Platform}{37}{mbed Platform}{2}}
-\headcommand {\beamer@sectionpages {37}{36}}
-\headcommand {\beamer@subsectionpages {37}{36}}
-\headcommand {\slideentry {1}{0}{1}{37/37}{}{2}}
+\headcommand {\beamer@subsectionentry {1}{4}{4}{35}{A Better Blinker}}\headcommand {\beamer@subsectionpages {30}{34}}
+\headcommand {\slideentry {4}{4}{1}{35/36}{A Better Blinker}{1}}
+\headcommand {\beamer@framepages {35}{36}}
+\headcommand {\slideentry {4}{4}{2}{37/37}{A Better Blinker}{1}}
 \headcommand {\beamer@framepages {37}{37}}
-\headcommand {\slideentry {1}{0}{2}{38/38}{}{2}}
+\headcommand {\slideentry {4}{4}{3}{38/38}{A Better Blinker}{1}}
 \headcommand {\beamer@framepages {38}{38}}
-\headcommand {\partentry {Session 3}{3}}
-\headcommand {\beamer@partpages {37}{38}}
-\headcommand {\beamer@sectionpages {37}{38}}
-\headcommand {\beamer@subsectionpages {37}{38}}
-\headcommand {\sectionentry {1}{Open Session}{39}{Open Session}{3}}
-\headcommand {\beamer@sectionpages {39}{38}}
-\headcommand {\beamer@subsectionpages {39}{38}}
-\headcommand {\slideentry {1}{0}{3}{39/39}{}{3}}
+\headcommand {\sectionentry {5}{Talking to mbed}{39}{Talking to mbed}{1}}
+\headcommand {\beamer@sectionpages {22}{38}}
+\headcommand {\beamer@subsectionpages {35}{38}}
+\headcommand {\slideentry {5}{0}{4}{39/39}{}{1}}
 \headcommand {\beamer@framepages {39}{39}}
-\headcommand {\slideentry {1}{0}{4}{40/40}{}{3}}
+\headcommand {\beamer@subsectionentry {1}{5}{1}{40}{Serial Ports}}\headcommand {\beamer@subsectionpages {39}{39}}
+\headcommand {\beamer@subsectionentry {1}{5}{2}{40}{Switch/Case Statements}}\headcommand {\beamer@subsectionpages {40}{39}}
+\headcommand {\beamer@subsectionentry {1}{5}{3}{40}{Functions}}\headcommand {\beamer@subsectionpages {40}{39}}
+\headcommand {\beamer@subsectionentry {1}{5}{4}{40}{For Loops}}\headcommand {\beamer@subsectionpages {40}{39}}
+\headcommand {\sectionentry {6}{Writing Modular Code}{40}{Writing Modular Code}{1}}
+\headcommand {\beamer@sectionpages {39}{39}}
+\headcommand {\beamer@subsectionpages {40}{39}}
+\headcommand {\slideentry {6}{0}{1}{40/40}{}{1}}
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\beamer@partpages {39}{40}}
-\headcommand {\beamer@subsectionpages {39}{40}}
-\headcommand {\beamer@sectionpages {39}{40}}
-\headcommand {\beamer@documentpages {40}}
-\headcommand {\def \inserttotalframenumber {38}}
+\headcommand {\beamer@subsectionentry {1}{6}{1}{41}{Analog Input}}\headcommand {\beamer@subsectionpages {40}{40}}
+\headcommand {\beamer@subsectionentry {1}{6}{2}{41}{PWM Output}}\headcommand {\beamer@subsectionpages {41}{40}}
+\headcommand {\beamer@subsectionentry {1}{6}{3}{41}{Classes}}\headcommand {\beamer@subsectionpages {41}{40}}
+\headcommand {\partentry {Session 2}{2}}
+\headcommand {\beamer@partpages {2}{40}}
+\headcommand {\beamer@sectionpages {40}{40}}
+\headcommand {\beamer@subsectionpages {41}{40}}
+\headcommand {\sectionentry {1}{mbed Platform}{41}{mbed Platform}{2}}
+\headcommand {\beamer@sectionpages {41}{40}}
+\headcommand {\beamer@subsectionpages {41}{40}}
+\headcommand {\slideentry {1}{0}{1}{41/41}{}{2}}
+\headcommand {\beamer@framepages {41}{41}}
+\headcommand {\slideentry {1}{0}{2}{42/42}{}{2}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\partentry {Session 3}{3}}
+\headcommand {\beamer@partpages {41}{42}}
+\headcommand {\beamer@sectionpages {41}{42}}
+\headcommand {\beamer@subsectionpages {41}{42}}
+\headcommand {\sectionentry {1}{Open Session}{43}{Open Session}{3}}
+\headcommand {\beamer@sectionpages {43}{42}}
+\headcommand {\beamer@subsectionpages {43}{42}}
+\headcommand {\slideentry {1}{0}{3}{43/43}{}{3}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\slideentry {1}{0}{4}{44/44}{}{3}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\beamer@partpages {43}{44}}
+\headcommand {\beamer@subsectionpages {43}{44}}
+\headcommand {\beamer@sectionpages {43}{44}}
+\headcommand {\beamer@documentpages {44}}
+\headcommand {\def \inserttotalframenumber {41}}

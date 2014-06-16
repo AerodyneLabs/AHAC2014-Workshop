@@ -241,3 +241,27 @@
 		\end{column}
 	\end{columns}
 \end{frame}
+
+\subsection{A Better Blinker}
+\label{sub:better_blink}
+\begin{frame}
+	\frametitle{A Better Blinker}
+	Lets try rewriting the blinky LED program to be a little more useful: use the button to change the delay time
+	\pause
+	\begin{itemize}
+		\item Use a global variable to count button presses
+		\item Remember the button has inverted logic levels
+		\item Check the bounds of your count
+		\item Try using math instead of discrete states
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{One Solution}
+	\lstinputlisting[caption=BetterBlink.cpp,multicols=2,captionpos=top]{code/taking_control/3.cpp}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{A More Elegant Solution}
+	\lstinputlisting[caption=BetterBlink.cpp]{code/taking_control/4.cpp}
+\end{frame}

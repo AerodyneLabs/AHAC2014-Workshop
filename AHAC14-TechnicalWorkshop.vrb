@@ -1,4 +1,2 @@
-\frametitle{Revisiting Our Last Program}
-Try to rewrite the last program using an if statement instead of simple assignment
-\pause
-\lstinputlisting[caption=TakingControl.cpp]{code/taking_control/2.cpp}
+\frametitle{A More Elegant Solution}
+\lstinputlisting[caption=BetterBlink.cpp]{code/taking_control/4.cpp}
