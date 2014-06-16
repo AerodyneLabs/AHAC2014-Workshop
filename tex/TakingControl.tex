@@ -3,7 +3,114 @@
 
 \subsection{Variables}
 \label{sub:variables}
+\begin{frame}[fragile]
+	\frametitle{Variables}
+	A variable is a container that has:
+	\begin{description}
+		\item [Type] What data it can hold
+		\item [Identifier] The name you access it with
+		\item [Value] The data it holds
+		\item [Scope] Where you can access it from
+	\end{description}
+	\vfill
+	You must declare a variable before you can use it:
+	\begin{lstlisting}[numbers=none]
+		type identifier = value;
+	\end{lstlisting}
+	The value is optional if you do not need a starting value.
+\end{frame}
 
+\begin{frame}
+	\frametitle{Variable Types}
+	\begin{tabular}{r|c|c|l}
+		Format & Type & Bits & Range\\
+		\hline
+		Integer & char & 8 & 0 -- 255\\
+		& signed char & 8 & -128 -- 127\\
+		& unsigned short & 16 & 0 -- 65,535\\
+		& short & 16 & -32,768 -- 32,767\\
+		& unsigned int & 32 & 0 -- 4,294,967,295\\
+		& int & 32 & $2.1 \times 10^9$ -- $2.1 \times 10^9$\\
+		& unsigned long long & 64 & 0 -- $1.8 \times 10^{19}$\\
+		& long long & 64 & $-9 \times 10^{18}$ -- $9 \times 10^{18}$\\
+		\hline
+		Floating & float & 32 & $-3.4 \times 10^{38}$ -- $3.4 \times 10^{38}$\\
+		& double & 64 & $-1.7 \times 10^{308}$ -- $1.7 \times 10^{308}$\\
+	\end{tabular}
+	\begin{block}{Note}
+		The mbed natively works with 32 bit types, a huge advantage over 8 and 16 bit processors
+	\end{block}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Variable Scope}
+	Variable scope is set by where a variable is declared:
+	\begin{columns}[c]
+		\begin{column}{0.5\textwidth}
+			\begin{lstlisting}[numbers=none]
+				int a = 0;
+				
+				int main() {
+				  float b = 0.0f;
+				  while(true) {
+				    double c = 0.0;
+				  }
+				}
+			\end{lstlisting}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{itemize}
+				\item a is outside any functions and can be seen anywhere in the file
+				\item b can be seen anywhere inside main()
+				\item c can only be seen inside the while loop
+			\end{itemize}
+		\end{column}
+	\end{columns}
+	A simple rule of thumb is a variable can only be seen inside its enclosing braces.
+	\begin{block}{Best Practice}
+		Use the narrowest scope possible
+	\end{block}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Using Variables}
+	\begin{columns}[T]
+		\begin{column}{0.5\textwidth}
+			Arithmetic Operators
+			\begin{tabular}{c|l}
+				= & assignment\\
+				+ & addition\\
+				- & subtraction\\
+				* & multiplication\\
+				/ & division\\
+				\% & modulus\\
+			\end{tabular}
+			
+			Bitwise Operators
+			\begin{tabular}{c|l}
+				\& & bitwise and\\
+				| & bitwise or\\
+				\^{} & bitwise xor\\
+				~ & bitwise not\\
+				<< & bitshift left\\
+				>> & bitshift right\\
+			\end{tabular}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			Compound Operators
+			\begin{tabular}{c|l}
+				++ & increment\\
+				-- & decrement\\
+				+= & compound addition\\
+				-= & compound subtraction\\
+				*= & compound multiplication\\
+				/= & compound division\\
+				\&= & compound bitwise and\\
+				|= & compound bitwise or\\
+			\end{tabular}
+		\end{column}
+	\end{columns}
+\end{frame}
 
 \subsection{Digital Input}
 \label{sub:digital_input}

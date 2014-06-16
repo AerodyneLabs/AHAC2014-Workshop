@@ -1,11 +1,27 @@
-\frametitle{Waiting}
-There are three statements that can slow down execution:
+\frametitle{Variable Scope}
+Variable scope is set by where a variable is declared:
+\begin{columns}[c]
+\begin{column}{0.5\textwidth}
 \begin{lstlisting}[numbers=none]
-void wait(float s);
-void wait_ms(int ms);
-void wait_us(int us);
+int a = 0;
+
+int main() {
+  float b = 0.0f;
+  while(true) {
+    double c = 0.0;
+  }
+}
 \end{lstlisting}
-All three will pause execution for the amount of time specified. Use these statements any time you need a controlled delay.
-\begin{block}{Notice}
-Wait and other block statements can have some unintended side effects. This will be demonstrated later.
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{itemize}
+\item a is outside any functions and can be seen anywhere in the file
+\item b can be seen anywhere inside main()
+\item c can only be seen inside the while loop
+\end{itemize}
+\end{column}
+\end{columns}
+A simple rule of thumb is a variable can only be seen inside its enclosing braces.
+\begin{block}{Best Practice}
+Use the narrowest scope possible
 \end{block}
