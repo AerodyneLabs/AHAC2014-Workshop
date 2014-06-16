@@ -74,40 +74,47 @@
 
 \begin{frame}
 	\frametitle{Using Variables}
-	\begin{columns}[T]
+	\begin{columns}[c]
 		\begin{column}{0.5\textwidth}
-			Arithmetic Operators
-			\begin{tabular}{c|l}
-				= & assignment\\
-				+ & addition\\
-				- & subtraction\\
-				* & multiplication\\
-				/ & division\\
-				\% & modulus\\
-			\end{tabular}
-			
-			Bitwise Operators
-			\begin{tabular}{c|l}
-				\& & bitwise and\\
-				| & bitwise or\\
-				\^{} & bitwise xor\\
-				~ & bitwise not\\
-				<< & bitshift left\\
-				>> & bitshift right\\
-			\end{tabular}
+			\begin{center}
+				\begin{tabular}{c|l}
+					\multicolumn{2}{c}{Arithmetic Operators}\\
+					\hline
+					= & assignment\\
+					+ & addition\\
+					- & subtraction\\
+					* & multiplication\\
+					/ & division\\
+					\% & modulus\\
+				\end{tabular}
+				\vfill
+				\begin{tabular}{c|l}
+					\multicolumn{2}{c}{Bitwise Operators}\\
+					\hline
+					\& & bitwise and\\
+					| & bitwise or\\
+					\^{} & bitwise xor\\
+					\~{} & bitwise not\\
+					<< & bitshift left\\
+					>> & bitshift right\\
+				\end{tabular}
+			\end{center}
 		\end{column}
 		\begin{column}{0.5\textwidth}
-			Compound Operators
-			\begin{tabular}{c|l}
-				++ & increment\\
-				-- & decrement\\
-				+= & compound addition\\
-				-= & compound subtraction\\
-				*= & compound multiplication\\
-				/= & compound division\\
-				\&= & compound bitwise and\\
-				|= & compound bitwise or\\
-			\end{tabular}
+			\begin{center}
+				\begin{tabular}{c|l}
+					\multicolumn{2}{c}{Compound Operators}\\
+					\hline
+					++ & increment\\
+					-- & decrement\\
+					+= & compound addition\\
+					-= & compound subtraction\\
+					*= & compound multiplication\\
+					/= & compound division\\
+					\&= & compound bitwise and\\
+					|= & compound bitwise or\\
+				\end{tabular}
+			\end{center}
 		\end{column}
 	\end{columns}
 \end{frame}
@@ -158,3 +165,79 @@
 
 \subsection{Conditional Statements}
 \label{sub:conditional_statements}
+\begin{frame}
+	\frametitle{Conditional Statements}
+	Conditional statements are constructed from comparison and boolean operators:
+	\begin{columns}[T]
+		\begin{column}{0.5\textwidth}
+			\begin{center}
+				\begin{tabular}{c|l}
+					\multicolumn{2}{c}{Comparison Operators}\\
+					\hline
+					== & equal to\\
+					!= & not equal to\\
+					< & less than\\
+					> & greater than\\
+					<= & less than or equal to\\
+					>= & greater than or equal to\\
+				\end{tabular}
+			\end{center}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{center}
+				\begin{tabular}{c|l}
+					\multicolumn{2}{c}{Boolean Operators}\\
+					\hline
+					\&\& & and\\
+					|| & or\\
+					! & not\\
+				\end{tabular}
+			\end{center}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{If Statements}
+	An if statement executes different code based on the result of a conditional statement:
+	\begin{lstlisting}[numbers=none]
+		if(x > 0) {
+		  // Run if x is positive
+		} else if(x < 0) {
+		  // Run if x is negative
+		} else {
+		  // Run otherwise
+		}
+	\end{lstlisting}
+	The else if and else clauses are optional. For simple cases, so are the braces:
+	\begin{lstlisting}[numbers=none]
+		if(x < 0) x = 0;
+	\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Revisiting Our Last Program}
+	Try to rewrite the last program using an if statement instead of simple assignment
+	\pause
+	\lstinputlisting[caption=TakingControl.cpp]{code/taking_control/2.cpp}
+\end{frame}
+
+\begin{frame}
+	\frametitle{A Note on Logic Levels}
+	A common practice is to use a pull-up resistor on buttons:
+	\begin{columns}[c]
+		\begin{column}{0.5\textwidth}
+			\begin{itemize}
+				\item Forces a known logic state
+				\item \textbf{Inverts logic levels!}
+				\item You can do this yourself using the PinMode parameter of DigitalIn objects
+			\end{itemize}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{center}
+				\includegraphics[height=0.5\paperheight]{pullup}\\
+				\tiny Image from Wikipedia
+			\end{center}
+		\end{column}
+	\end{columns}
+\end{frame}

@@ -1,19 +1,4 @@
-\frametitle{A New Program}
-\begin{columns}[T]
-\begin{column}{0.5\textwidth}
-Create a new program with:
-\begin{itemize}
-\item DigitalIn on the button
-\item DigitalOut on the LED
-\item Infinite main loop
-\item Button controlling the LED
-\end{itemize}
-\begin{block}{Tip}
-Look at the pin diagrams to determine what PinName to use
-\end{block}
-\end{column}
-\begin{column}{0.5\textwidth}
+\frametitle{Revisiting Our Last Program}
+Try to rewrite the last program using an if statement instead of simple assignment
 \pause
-\lstinputlisting[caption=TakingControl.cpp]{code/taking_control/1.cpp}
-\end{column}
-\end{columns}
+\lstinputlisting[caption=TakingControl.cpp]{code/taking_control/2.cpp}
