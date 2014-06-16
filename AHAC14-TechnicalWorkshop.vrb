@@ -1,27 +1,19 @@
-\frametitle{Variable Scope}
-Variable scope is set by where a variable is declared:
-\begin{columns}[c]
+\frametitle{A New Program}
+\begin{columns}[T]
 \begin{column}{0.5\textwidth}
-\begin{lstlisting}[numbers=none]
-int a = 0;
-
-int main() {
-  float b = 0.0f;
-  while(true) {
-    double c = 0.0;
-  }
-}
-\end{lstlisting}
+Create a new program with:
+\begin{itemize}
+\item DigitalIn on the button
+\item DigitalOut on the LED
+\item Infinite main loop
+\item Button controlling the LED
+\end{itemize}
+\begin{block}{Tip}
+Look at the pin diagrams to determine what PinName to use
+\end{block}
 \end{column}
 \begin{column}{0.5\textwidth}
-\begin{itemize}
-\item a is outside any functions and can be seen anywhere in the file
-\item b can be seen anywhere inside main()
-\item c can only be seen inside the while loop
-\end{itemize}
+\pause
+\lstinputlisting[caption=TakingControl.cpp]{code/taking_control/1.cpp}
 \end{column}
 \end{columns}
-A simple rule of thumb is a variable can only be seen inside its enclosing braces.
-\begin{block}{Best Practice}
-Use the narrowest scope possible
-\end{block}

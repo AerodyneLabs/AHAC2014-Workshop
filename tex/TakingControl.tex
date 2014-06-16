@@ -114,7 +114,47 @@
 
 \subsection{Digital Input}
 \label{sub:digital_input}
+\begin{frame}[fragile]
+	\frametitle{Digital Input}
+	\begin{lstlisting}[numbers=none]
+		DigitalIn(PinName pin, PinMode mode);
+	\end{lstlisting}
+	DigitalIn operates nearly identically to DigitalOut, except you can optionally specify a pin mode:
+	\begin{description}
+		\item[PullNone] Standard mode, default
+		\item[PullUp] Weak pull up resistor enabled
+		\item[PullDown] Weak pull down resistor enabled
+	\end{description}
+	Access the value of the pin by treating it like any other variable.
+	\begin{block}{Example}
+		\begin{lstlisting}[numbers=none]
+			DigitalIn btn(USER_BUTTON);
+			int state = btn;
+		\end{lstlisting}
+	\end{block}
+\end{frame}
 
+\begin{frame}[fragile]
+	\frametitle{A New Program}
+	\begin{columns}[T]
+		\begin{column}{0.5\textwidth}
+			Create a new program with:
+			\begin{itemize}
+				\item DigitalIn on the button
+				\item DigitalOut on the LED
+				\item Infinite main loop
+				\item Button controlling the LED
+			\end{itemize}
+			\begin{block}{Tip}
+				Look at the pin diagrams to determine what PinName to use
+			\end{block}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\pause
+			\lstinputlisting[caption=TakingControl.cpp]{code/taking_control/1.cpp}
+		\end{column}
+	\end{columns}
+\end{frame}
 
 \subsection{Conditional Statements}
 \label{sub:conditional_statements}
