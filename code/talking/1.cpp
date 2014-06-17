@@ -8,8 +8,10 @@ int main() {
 		switch(pc.getc()) {
 			case 'H':
 				led = 1;
+				break;
 			case 'L':
 				led = 0;
+				break;
 		}
 	}
 }

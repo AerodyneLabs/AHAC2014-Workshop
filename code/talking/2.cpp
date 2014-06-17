@@ -7,8 +7,10 @@ void handler(char in) {
 	switch(in) {
 		case 'H':
 			led = 1;
+			break;
 		case 'L':
 			led = 0;
+			break;
 	}
 }
 

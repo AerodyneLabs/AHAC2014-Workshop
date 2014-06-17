@@ -1,13 +1,14 @@
-\frametitle{Function Prototypes}
-Like variables, functions must be declared before they can be used.\\
-This is why handler was above main in the last example.\\
-\vfill
-You can declare a function prototype separate from the implementation to avoid this:
-\begin{lstlisting}[numbers=none]
-void handler(char in);
-
-int main() { ... }
-
-void handler(char in) { ... }
-\end{lstlisting}
-Put the prototype with the rest of your global declarations and the function where ever it fits best.
+\frametitle{Revisiting Your Earlier Program}
+\begin{columns}[T]
+\begin{column}{0.4\textwidth}
+Edit the remote control program to add a new feature:
+\begin{itemize}
+\item A function to print the abc's using a for loop
+\item A new character in your handler to call your new function
+\end{itemize}
+\pause
+\end{column}
+\begin{column}{0.6\textwidth}
+\lstinputlisting[firstline=15, firstnumber=15]{code/talking/3.cpp}
+\end{column}
+\end{columns}

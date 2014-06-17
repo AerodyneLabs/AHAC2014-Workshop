@@ -244,3 +244,40 @@
 
 \subsection{For Loops}
 \label{sub:for_loops}
+\begin{frame}[fragile]
+	\frametitle{For Loops}
+	For loops execute a block of code a defined number of times:
+	\begin{lstlisting}[numbers=none]
+		for(initialization; condition; increment) {statements}
+	\end{lstlisting}
+	\vfill
+	\begin{itemize}
+		\item Like a while loop, it iterates as long as the condition as true
+		\item The initialization statements happens before the first iteration
+		\item The increment statement happens after each iteration
+	\end{itemize}
+	\vfill
+	\begin{block}{Example}
+		Iterate 10 times, printing the current count:
+		\begin{lstlisting}[numbers=none]
+			for(int i = 0; i < 10; i++) printf("%d\n", i);
+		\end{lstlisting}
+	\end{block}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Revisiting Your Earlier Program}
+	\begin{columns}[T]
+		\begin{column}{0.4\textwidth}
+			Edit the remote control program to add a new feature:
+			\begin{itemize}
+				\item A function to print the abc's using a for loop
+				\item A new character in your handler to call your new function
+			\end{itemize}
+			\pause
+		\end{column}
+		\begin{column}{0.6\textwidth}
+			\lstinputlisting[firstline=15, firstnumber=15]{code/talking/3.cpp}
+		\end{column}
+	\end{columns}
+\end{frame}
