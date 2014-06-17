@@ -114,7 +114,56 @@
 
 \subsection{Switch/Case Statements}
 \label{sub:switch_case}
+\begin{frame}[fragile]
+	\frametitle{Switch/Case Statements}
+	Switch statements can replace some types of if/else statements:
+	\begin{columns}[c]
+		\begin{column}{0.5\textwidth}
+			\begin{lstlisting}[numbers=none]
+				switch(variable) {
+				  case value1:
+				    // Code for value1
+				    break;
+				  case value2:
+				  case value3:
+				  	// Code for value2 and 3
+				  	break;
+				  default:
+				    // Code
+				}
+			\end{lstlisting}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{block}{Warning}
+				A break statement is required between cases. Forgetting can cause many bugs!
+			\end{block}
+		\end{column}
+	\end{columns}
+	Switch statements can only be used with integral type variables.
+	You can group multiple cases together like 2 and 3 above.
+\end{frame}
 
+\begin{frame}[fragile]
+	\frametitle{A New Program}
+	\begin{columns}[T]
+		\begin{column}{0.5\textwidth}
+			Create a new program with:
+			\begin{itemize}
+				\item A serial port connected to USB
+				\item A DigitalOut connected to the LED
+				\item A switch statement
+				\begin{itemize}
+					\item One character turns the LED on
+					\item Another character turns the LED off
+				\end{itemize}
+			\end{itemize}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\pause
+			\lstinputlisting[caption=RemoteControl.cpp]{code/talking/1.cpp}
+		\end{column}
+	\end{columns}
+\end{frame}
 
 \subsection{Functions}
 \label{sub:functions}

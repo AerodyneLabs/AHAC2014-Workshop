@@ -19,9 +19,9 @@
 \beamer@slide {sec:talking}{40}
 \beamer@slide {sub:uart}{40}
 \beamer@slide {sub:switch_case}{44}
-\beamer@slide {sub:functions}{44}
-\beamer@slide {sub:for_loops}{44}
-\beamer@slide {sec:modular_code}{45}
-\beamer@slide {sub:analog_input}{45}
-\beamer@slide {sub:pwm_output}{45}
-\beamer@slide {sub:classes}{45}
+\beamer@slide {sub:functions}{47}
+\beamer@slide {sub:for_loops}{47}
+\beamer@slide {sec:modular_code}{48}
+\beamer@slide {sub:analog_input}{48}
+\beamer@slide {sub:pwm_output}{48}
+\beamer@slide {sub:classes}{48}
