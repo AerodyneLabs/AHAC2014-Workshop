@@ -1,19 +1,13 @@
-\frametitle{A New Program}
-\begin{columns}[T]
-\begin{column}{0.5\textwidth}
-Create a new program with:
-\begin{itemize}
-\item A serial port connected to USB
-\item A DigitalOut connected to the LED
-\item A switch statement
-\begin{itemize}
-\item One character turns the LED on
-\item Another character turns the LED off
-\end{itemize}
-\end{itemize}
-\end{column}
-\begin{column}{0.5\textwidth}
-\pause
-\lstinputlisting[caption=RemoteControl.cpp]{code/talking/1.cpp}
-\end{column}
-\end{columns}
+\frametitle{Function Prototypes}
+Like variables, functions must be declared before they can be used.\\
+This is why handler was above main in the last example.\\
+\vfill
+You can declare a function prototype separate from the implementation to avoid this:
+\begin{lstlisting}[numbers=none]
+void handler(char in);
+
+int main() { ... }
+
+void handler(char in) { ... }
+\end{lstlisting}
+Put the prototype with the rest of your global declarations and the function where ever it fits best.

@@ -167,7 +167,80 @@
 
 \subsection{Functions}
 \label{sub:functions}
+\begin{frame}[fragile]
+	\frametitle{Functions}
+	Functions repackage code into reusable groups:
+	\begin{lstlisting}[numbers=none]
+		type name(parameter1, parameter2, ...) {statements}
+	\end{lstlisting}
+	\begin{description}
+		\item[type] The type of data returned by the function
+		\item[name] The name the function can be called by
+		\item[parameters] Variables used as inputs/outputs for the function
+		\item[statements] Code statements that define what the function does
+	\end{description}
+	\vfill
+	Parameters are essentially local variable declarations that are passed to the function, use as many (or as few) as needed:
+	\begin{lstlisting}[numbers=none]
+		int uselessFunction(int a, float b, double c) {...}
+	\end{lstlisting}
+\end{frame}
 
+\begin{frame}[fragile]
+	\frametitle{Using Functions}
+	Call a function by using its name and your parameters in parenthesis:
+	\begin{lstlisting}[numbers=none]
+		int add(int x, int y) {
+		  return x + y;
+		}
+		
+		int a = add(2, 3)
+		
+		a = 5
+	\end{lstlisting}
+	Some functions do not require a return type:
+	\begin{lstlisting}[numbers=none]
+		void hello(char * name) {
+		  printf("Hello %s\n!", name);
+		}
+		
+		hello("everyone");
+		
+		>Hello everyone!
+	\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Revisiting Your Earlier Program}
+	\begin{columns}[T]
+		\begin{column}{0.5\textwidth}
+			Lets rewrite the earlier remote control program to use a function to handle the input.
+			This helps us stay organized.\\
+			\pause
+			\vspace{2ex}
+			\textit{Only changed lines are shown to save space}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+	\lstinputlisting[caption=RemoteControl.cpp, firstline=6, firstnumber=6]{code/talking/2.cpp}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Function Prototypes}
+	Like variables, functions must be declared before they can be used.\\
+	This is why handler was above main in the last example.\\
+	\vfill
+	You can declare a function prototype separate from the implementation to avoid this:
+	\begin{lstlisting}[numbers=none]
+		void handler(char in);
+		
+		int main() { ... }
+		
+		void handler(char in) { ... }
+	\end{lstlisting}
+	Put the prototype with the rest of your global declarations and the function where ever it fits best.
+\end{frame}
 
 \subsection{For Loops}
 \label{sub:for_loops}

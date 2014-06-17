@@ -119,39 +119,47 @@
 \headcommand {\slideentry {5}{2}{2}{45/46}{Switch/Case Statements}{1}}
 \headcommand {\beamer@framepages {45}{46}}
 \headcommand {\beamer@subsectionentry {1}{5}{3}{47}{Functions}}\headcommand {\beamer@subsectionpages {44}{46}}
-\headcommand {\beamer@subsectionentry {1}{5}{4}{47}{For Loops}}\headcommand {\beamer@subsectionpages {47}{46}}
-\headcommand {\sectionentry {6}{Writing Modular Code}{47}{Writing Modular Code}{1}}
-\headcommand {\beamer@sectionpages {39}{46}}
-\headcommand {\beamer@subsectionpages {47}{46}}
-\headcommand {\slideentry {6}{0}{1}{47/47}{}{1}}
+\headcommand {\slideentry {5}{3}{1}{47/47}{Functions}{1}}
 \headcommand {\beamer@framepages {47}{47}}
-\headcommand {\beamer@subsectionentry {1}{6}{1}{48}{Analog Input}}\headcommand {\beamer@subsectionpages {47}{47}}
-\headcommand {\beamer@subsectionentry {1}{6}{2}{48}{PWM Output}}\headcommand {\beamer@subsectionpages {48}{47}}
-\headcommand {\beamer@subsectionentry {1}{6}{3}{48}{Classes}}\headcommand {\beamer@subsectionpages {48}{47}}
-\headcommand {\partentry {Session 2}{2}}
-\headcommand {\beamer@partpages {2}{47}}
-\headcommand {\beamer@sectionpages {47}{47}}
-\headcommand {\beamer@subsectionpages {48}{47}}
-\headcommand {\sectionentry {1}{mbed Platform}{48}{mbed Platform}{2}}
-\headcommand {\beamer@sectionpages {48}{47}}
-\headcommand {\beamer@subsectionpages {48}{47}}
-\headcommand {\slideentry {1}{0}{1}{48/48}{}{2}}
+\headcommand {\slideentry {5}{3}{2}{48/48}{Functions}{1}}
 \headcommand {\beamer@framepages {48}{48}}
-\headcommand {\slideentry {1}{0}{2}{49/49}{}{2}}
-\headcommand {\beamer@framepages {49}{49}}
-\headcommand {\partentry {Session 3}{3}}
-\headcommand {\beamer@partpages {48}{49}}
-\headcommand {\beamer@sectionpages {48}{49}}
-\headcommand {\beamer@subsectionpages {48}{49}}
-\headcommand {\sectionentry {1}{Open Session}{50}{Open Session}{3}}
-\headcommand {\beamer@sectionpages {50}{49}}
-\headcommand {\beamer@subsectionpages {50}{49}}
-\headcommand {\slideentry {1}{0}{3}{50/50}{}{3}}
-\headcommand {\beamer@framepages {50}{50}}
-\headcommand {\slideentry {1}{0}{4}{51/51}{}{3}}
+\headcommand {\slideentry {5}{3}{3}{49/50}{Functions}{1}}
+\headcommand {\beamer@framepages {49}{50}}
+\headcommand {\slideentry {5}{3}{4}{51/51}{Functions}{1}}
 \headcommand {\beamer@framepages {51}{51}}
-\headcommand {\beamer@partpages {50}{51}}
-\headcommand {\beamer@subsectionpages {50}{51}}
-\headcommand {\beamer@sectionpages {50}{51}}
-\headcommand {\beamer@documentpages {51}}
-\headcommand {\def \inserttotalframenumber {47}}
+\headcommand {\beamer@subsectionentry {1}{5}{4}{52}{For Loops}}\headcommand {\beamer@subsectionpages {47}{51}}
+\headcommand {\sectionentry {6}{Writing Modular Code}{52}{Writing Modular Code}{1}}
+\headcommand {\beamer@sectionpages {39}{51}}
+\headcommand {\beamer@subsectionpages {52}{51}}
+\headcommand {\slideentry {6}{0}{1}{52/52}{}{1}}
+\headcommand {\beamer@framepages {52}{52}}
+\headcommand {\beamer@subsectionentry {1}{6}{1}{53}{Analog Input}}\headcommand {\beamer@subsectionpages {52}{52}}
+\headcommand {\beamer@subsectionentry {1}{6}{2}{53}{PWM Output}}\headcommand {\beamer@subsectionpages {53}{52}}
+\headcommand {\beamer@subsectionentry {1}{6}{3}{53}{Classes}}\headcommand {\beamer@subsectionpages {53}{52}}
+\headcommand {\partentry {Session 2}{2}}
+\headcommand {\beamer@partpages {2}{52}}
+\headcommand {\beamer@sectionpages {52}{52}}
+\headcommand {\beamer@subsectionpages {53}{52}}
+\headcommand {\sectionentry {1}{mbed Platform}{53}{mbed Platform}{2}}
+\headcommand {\beamer@sectionpages {53}{52}}
+\headcommand {\beamer@subsectionpages {53}{52}}
+\headcommand {\slideentry {1}{0}{1}{53/53}{}{2}}
+\headcommand {\beamer@framepages {53}{53}}
+\headcommand {\slideentry {1}{0}{2}{54/54}{}{2}}
+\headcommand {\beamer@framepages {54}{54}}
+\headcommand {\partentry {Session 3}{3}}
+\headcommand {\beamer@partpages {53}{54}}
+\headcommand {\beamer@sectionpages {53}{54}}
+\headcommand {\beamer@subsectionpages {53}{54}}
+\headcommand {\sectionentry {1}{Open Session}{55}{Open Session}{3}}
+\headcommand {\beamer@sectionpages {55}{54}}
+\headcommand {\beamer@subsectionpages {55}{54}}
+\headcommand {\slideentry {1}{0}{3}{55/55}{}{3}}
+\headcommand {\beamer@framepages {55}{55}}
+\headcommand {\slideentry {1}{0}{4}{56/56}{}{3}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\beamer@partpages {55}{56}}
+\headcommand {\beamer@subsectionpages {55}{56}}
+\headcommand {\beamer@sectionpages {55}{56}}
+\headcommand {\beamer@documentpages {56}}
+\headcommand {\def \inserttotalframenumber {51}}
