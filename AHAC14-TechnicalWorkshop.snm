@@ -18,10 +18,10 @@
 \beamer@slide {sub:better_blink}{35}
 \beamer@slide {sec:talking}{40}
 \beamer@slide {sub:uart}{40}
-\beamer@slide {sub:switch_case}{40}
-\beamer@slide {sub:functions}{40}
-\beamer@slide {sub:for_loops}{40}
-\beamer@slide {sec:modular_code}{41}
-\beamer@slide {sub:analog_input}{41}
-\beamer@slide {sub:pwm_output}{41}
-\beamer@slide {sub:classes}{41}
+\beamer@slide {sub:switch_case}{44}
+\beamer@slide {sub:functions}{44}
+\beamer@slide {sub:for_loops}{44}
+\beamer@slide {sec:modular_code}{45}
+\beamer@slide {sub:analog_input}{45}
+\beamer@slide {sub:pwm_output}{45}
+\beamer@slide {sub:classes}{45}

@@ -1,2 +1,27 @@
-\frametitle{A More Elegant Solution}
-\lstinputlisting[caption=BetterBlink.cpp]{code/taking_control/4.cpp}
+\frametitle{Viewing the Serial Port}
+\begin{columns}[T]
+\begin{column}{0.5\textwidth}
+%TODO RealTerm screenshot
+\includegraphics[width=\linewidth]{realterm}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{enumerate}
+\item Open RealTerm
+\item Enable "Half Duplex"
+\item Click the "Port" tab
+\item Baud: 9600 and the correct port
+\item Click "Change"
+\end{enumerate}
+\end{column}
+\end{columns}
+\vfill
+Try running a simple sample program:
+\begin{lstlisting}[numbers=none]
+Serial pc(USBTX, USBRX);
+int main() {
+  pc.printf("Hello world!");
+  while(true) {
+    pc.putc(pc.getc() + 1);
+  }
+}
+\end{lstlisting}
