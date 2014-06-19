@@ -154,30 +154,54 @@
 \headcommand {\slideentry {6}{2}{4}{65/65}{PWM Output}{1}}
 \headcommand {\beamer@framepages {65}{65}}
 \headcommand {\beamer@subsectionentry {1}{6}{3}{66}{Classes}}\headcommand {\beamer@subsectionpages {60}{65}}
-\headcommand {\partentry {Session 2}{2}}
-\headcommand {\beamer@partpages {2}{65}}
-\headcommand {\beamer@sectionpages {55}{65}}
-\headcommand {\beamer@subsectionpages {66}{65}}
-\headcommand {\sectionentry {1}{mbed Platform}{66}{mbed Platform}{2}}
-\headcommand {\beamer@sectionpages {66}{65}}
-\headcommand {\beamer@subsectionpages {66}{65}}
-\headcommand {\slideentry {1}{0}{1}{66/66}{}{2}}
+\headcommand {\slideentry {6}{3}{1}{66/66}{Classes}{1}}
 \headcommand {\beamer@framepages {66}{66}}
-\headcommand {\slideentry {1}{0}{2}{67/67}{}{2}}
+\headcommand {\slideentry {6}{3}{2}{67/67}{Classes}{1}}
 \headcommand {\beamer@framepages {67}{67}}
-\headcommand {\partentry {Session 3}{3}}
-\headcommand {\beamer@partpages {66}{67}}
-\headcommand {\beamer@sectionpages {66}{67}}
-\headcommand {\beamer@subsectionpages {66}{67}}
-\headcommand {\sectionentry {1}{Open Session}{68}{Open Session}{3}}
-\headcommand {\beamer@sectionpages {68}{67}}
-\headcommand {\beamer@subsectionpages {68}{67}}
-\headcommand {\slideentry {1}{0}{3}{68/68}{}{3}}
+\headcommand {\slideentry {6}{3}{3}{68/68}{Classes}{1}}
 \headcommand {\beamer@framepages {68}{68}}
-\headcommand {\slideentry {1}{0}{4}{69/69}{}{3}}
+\headcommand {\slideentry {6}{3}{4}{69/69}{Classes}{1}}
 \headcommand {\beamer@framepages {69}{69}}
-\headcommand {\beamer@partpages {68}{69}}
-\headcommand {\beamer@subsectionpages {68}{69}}
-\headcommand {\beamer@sectionpages {68}{69}}
-\headcommand {\beamer@documentpages {69}}
-\headcommand {\def \inserttotalframenumber {60}}
+\headcommand {\slideentry {6}{3}{5}{70/70}{Classes}{1}}
+\headcommand {\beamer@framepages {70}{70}}
+\headcommand {\slideentry {6}{3}{6}{71/71}{Classes}{1}}
+\headcommand {\beamer@framepages {71}{71}}
+\headcommand {\slideentry {6}{3}{7}{72/72}{Classes}{1}}
+\headcommand {\beamer@framepages {72}{72}}
+\headcommand {\slideentry {6}{3}{8}{73/73}{Classes}{1}}
+\headcommand {\beamer@framepages {73}{73}}
+\headcommand {\slideentry {6}{3}{9}{74/74}{Classes}{1}}
+\headcommand {\beamer@framepages {74}{74}}
+\headcommand {\slideentry {6}{3}{10}{75/75}{Classes}{1}}
+\headcommand {\beamer@framepages {75}{75}}
+\headcommand {\slideentry {6}{3}{11}{76/76}{Classes}{1}}
+\headcommand {\beamer@framepages {76}{76}}
+\headcommand {\slideentry {6}{3}{12}{77/77}{Classes}{1}}
+\headcommand {\beamer@framepages {77}{77}}
+\headcommand {\partentry {Session 2}{2}}
+\headcommand {\beamer@partpages {2}{77}}
+\headcommand {\beamer@sectionpages {55}{77}}
+\headcommand {\beamer@subsectionpages {66}{77}}
+\headcommand {\sectionentry {1}{mbed Platform}{78}{mbed Platform}{2}}
+\headcommand {\beamer@sectionpages {78}{77}}
+\headcommand {\beamer@subsectionpages {78}{77}}
+\headcommand {\slideentry {1}{0}{13}{78/78}{}{2}}
+\headcommand {\beamer@framepages {78}{78}}
+\headcommand {\slideentry {1}{0}{14}{79/79}{}{2}}
+\headcommand {\beamer@framepages {79}{79}}
+\headcommand {\partentry {Session 3}{3}}
+\headcommand {\beamer@partpages {78}{79}}
+\headcommand {\beamer@sectionpages {78}{79}}
+\headcommand {\beamer@subsectionpages {78}{79}}
+\headcommand {\sectionentry {1}{Open Session}{80}{Open Session}{3}}
+\headcommand {\beamer@sectionpages {80}{79}}
+\headcommand {\beamer@subsectionpages {80}{79}}
+\headcommand {\slideentry {1}{0}{15}{80/80}{}{3}}
+\headcommand {\beamer@framepages {80}{80}}
+\headcommand {\slideentry {1}{0}{16}{81/81}{}{3}}
+\headcommand {\beamer@framepages {81}{81}}
+\headcommand {\beamer@partpages {80}{81}}
+\headcommand {\beamer@subsectionpages {80}{81}}
+\headcommand {\beamer@sectionpages {80}{81}}
+\headcommand {\beamer@documentpages {81}}
+\headcommand {\def \inserttotalframenumber {72}}

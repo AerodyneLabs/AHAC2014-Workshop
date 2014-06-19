@@ -5,12 +5,12 @@
 
 class Fader {
 public:
-    Fader(PinName in, PinName out);
-    void update();
+	Fader(PinName in, PinName out);
+	void update();
 
 private:
-    AnalogIn _in;
-    PwmOut _out;
+	AnalogIn _in;
+	PwmOut _out;
 };
 
 #endif

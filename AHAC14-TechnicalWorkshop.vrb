@@ -1,18 +1,9 @@
-\frametitle{PWM Demo}
+\frametitle{Exposure}
 \begin{columns}[T]
 \begin{column}{0.5\textwidth}
-Create a new program:
-\begin{itemize}
-\item PwmOut connected to the LED
-\item A loop changing the brightness of the LED
-\pause
-\item Brightness is proportional to duty cycle
-\item Don't forget to slow your program down!
-\pause
-\item Try playing with the period
-\end{itemize}
+\lstinputlisting[title=Fader.h]{code/fader/Fader.h}
 \end{column}
 \begin{column}{0.5\textwidth}
-\lstinputlisting[title=Pwm.cpp]{code/modular_code/pwm.cpp}
+\lstinputlisting[title=Fader.cpp]{code/fader/Fader.cpp}
 \end{column}
 \end{columns}

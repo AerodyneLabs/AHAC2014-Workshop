@@ -145,3 +145,107 @@
 
 \subsection{Classes}
 \label{sub:classes}
+\begin{frame}
+	\frametitle{Classes}
+	A class is an object that can contain both variables and functions.
+	DigitalIn, DigitalOut and all the other objects used so far are examples of classes.\\
+	\vfill
+	Using classes helps you:
+	\begin{itemize}
+		\item Stay organized - functions are attached to the data they use
+		\item Reuse code - you can make as many copies as needed without extra code
+		\item Control scope - you don't have to worry about name clashes
+	\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Class Structure}
+	\lstinputlisting[]{code/modular_code/class0.cpp}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Class Structure}
+	The {\ttfamily class} keyword defines this block as a class.
+	\vfill
+	The {\ttfamily public} and {\ttfamily private} keywords are access specifiers.
+	Private members are only available from other members of the same class.
+	Public members are available anywhere the object is.
+	\vfill
+	Your class becomes a new data type in your program.
+	You can create instances of it and use them like any other object.
+	\vfill
+	Class members are accessed with dot notation: {\ttfamily name.member}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Class Scope}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Class Scope}
+	\lstinputlisting[]{code/modular_code/class1.cpp}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Header Files}
+\end{frame}
+
+\begin{frame}[fragile,squeeze]
+	\frametitle{Header Files}
+	\lstinputlisting[title=Rectangle.h]{code/modular_code/rectangle.h}
+	\lstinputlisting[title=Rectangle.cpp]{code/modular_code/rectangle.cpp}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Writing a Class}
+	Lets convert this simple code into a class by following these steps:
+	\begin{columns}[T]
+		\begin{column}{0.5\textwidth}
+			\begin{enumerate}
+				\item Refactor into functions
+				\bigskip
+				\item Encapsulate into a class
+				\bigskip
+				\item Expose class with a header
+			\end{enumerate}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\lstinputlisting[]{code/fader/fader1.cpp}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Refactoring}
+	Pull out as much common code you can into functions:
+	\begin{columns}[T]
+		\begin{column}{0.5\textwidth}
+		
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\lstinputlisting[]{code/fader/fader2.cpp}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Encapsulating}
+	\lstinputlisting[multicols=2]{code/fader/fader3.cpp}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Exposure}
+	\begin{columns}[T]
+		\begin{column}{0.5\textwidth}
+			\lstinputlisting[title=Fader.h]{code/fader/Fader.h}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\lstinputlisting[title=Fader.cpp]{code/fader/Fader.cpp}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Using Your Class}
+	\lstinputlisting[title=FaderDemo.cpp]{code/fader/FaderDemo.cpp}
+\end{frame}
