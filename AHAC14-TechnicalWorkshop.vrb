@@ -11,6 +11,6 @@ Create a new program:
 \end{column}
 \pause
 \begin{column}{0.5\textwidth}
-\lstinputlisting[caption=Analog.cpp]{code/modular_code/analog.cpp}
+\lstinputlisting[title=Analog.cpp]{code/modular_code/analog.cpp}
 \end{column}
 \end{columns}
