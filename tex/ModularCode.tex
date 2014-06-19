@@ -134,5 +134,14 @@
 	\end{columns}
 \end{frame}
 
+\begin{frame}
+	\frametitle{PWM Notes}
+	Be aware that the same PWM signal may be exposed on several pins, you can only use one at a time.
+	\vfill
+	PWMx/y is the y-th channel of the x-th timer. All PWM's on a single timer must have the same frequency/period but can have different duty cycles.
+	\vfill
+	PWMx/yN has the same period and duty cycle as PWMx/y but is inverted.
+\end{frame}
+
 \subsection{Classes}
 \label{sub:classes}
