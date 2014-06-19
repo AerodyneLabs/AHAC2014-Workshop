@@ -3,7 +3,60 @@
 
 \subsection{Analog Input}
 \label{sub:analog_input}
+\begin{frame}[fragile]
+	\frametitle{Analog Input}
+	AnalogIn operates almost identically to DigitalIn:
+	\begin{lstlisting}[numbers=none]
+		AnalogIn in(PinName pin);
+	\end{lstlisting}
+	\vfill
+	You can access the value by treating it like a variable or with a function:
+	\begin{lstlisting}[]
+		float value = in;
+		float value = in.read();
+		unsigned short value = in.read_u16();
+	\end{lstlisting}
+	1 and 2 are identical and return a float in the range [0.0 -- 1.0].\\
+	3 returns an unsigned short in the range [0x0000 -- 0xFFFF].
+\end{frame}
 
+\begin{frame}
+	\frametitle{Using Potentiometers}
+	\begin{columns}[T]
+		\begin{column}{0.5\textwidth}
+			A potentiometer functions as an adjustable voltage divider:
+			\begin{itemize}
+				\item One leg connects to 3.3v
+				\item One leg connects to Gnd
+				\item Wiper connects to an analog pin
+			\end{itemize}
+			The wiper varies between 0 and 3.3v as you turn the knob.
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			%TODO potentiometer schematic
+			%TODO hookup picture
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{Analog Input Demo}
+	\begin{columns}[T]
+		\begin{column}{0.5\textwidth}
+			Create a new program:
+			\begin{itemize}
+				\item AnalogIn connected to potentiometer
+				\item Serial port connected to USB
+				\item Print the analog value to serial
+				\item Try using format specifiers with printf
+			\end{itemize}
+		\end{column}
+		\pause
+		\begin{column}{0.5\textwidth}
+			\lstinputlisting[caption=Analog.cpp]{code/modular_code/analog.cpp}
+		\end{column}
+	\end{columns}
+\end{frame}
 
 \subsection{PWM Output}
 \label{sub:pwm_output}

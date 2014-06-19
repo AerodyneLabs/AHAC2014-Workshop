@@ -1,14 +1,16 @@
-\frametitle{Revisiting Your Earlier Program}
+\frametitle{Analog Input Demo}
 \begin{columns}[T]
-\begin{column}{0.4\textwidth}
-Edit the remote control program to add a new feature:
+\begin{column}{0.5\textwidth}
+Create a new program:
 \begin{itemize}
-\item A function to print the abc's using a for loop
-\item A new character in your handler to call your new function
+\item AnalogIn connected to potentiometer
+\item Serial port connected to USB
+\item Print the analog value to serial
+\item Try using format specifiers with printf
 \end{itemize}
-\pause
 \end{column}
-\begin{column}{0.6\textwidth}
-\lstinputlisting[firstline=15, firstnumber=15]{code/talking/3.cpp}
+\pause
+\begin{column}{0.5\textwidth}
+\lstinputlisting[caption=Analog.cpp]{code/modular_code/analog.cpp}
 \end{column}
 \end{columns}
