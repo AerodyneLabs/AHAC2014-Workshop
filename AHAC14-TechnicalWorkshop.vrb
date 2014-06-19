@@ -1,16 +1,18 @@
-\frametitle{Analog Input Demo}
+\frametitle{PWM Demo}
 \begin{columns}[T]
 \begin{column}{0.5\textwidth}
 Create a new program:
 \begin{itemize}
-\item AnalogIn connected to potentiometer
-\item Serial port connected to USB
-\item Print the analog value to serial
-\item Try using format specifiers with printf
+\item PwmOut connected to the LED
+\item A loop changing the brightness of the LED
+\pause
+\item Brightness is proportional to duty cycle
+\item Don't forget to slow your program down!
+\pause
+\item Try playing with the period
 \end{itemize}
 \end{column}
-\pause
 \begin{column}{0.5\textwidth}
-\lstinputlisting[title=Analog.cpp]{code/modular_code/analog.cpp}
+\lstinputlisting[title=Pwm.cpp]{code/modular_code/pwm.cpp}
 \end{column}
 \end{columns}
