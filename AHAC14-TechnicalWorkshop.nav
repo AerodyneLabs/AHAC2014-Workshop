@@ -178,30 +178,34 @@
 \headcommand {\beamer@framepages {76}{76}}
 \headcommand {\slideentry {6}{3}{12}{77/77}{Classes}{1}}
 \headcommand {\beamer@framepages {77}{77}}
-\headcommand {\partentry {Session 2}{2}}
-\headcommand {\beamer@partpages {2}{77}}
-\headcommand {\beamer@sectionpages {55}{77}}
-\headcommand {\beamer@subsectionpages {66}{77}}
-\headcommand {\sectionentry {1}{mbed Platform}{78}{mbed Platform}{2}}
-\headcommand {\beamer@sectionpages {78}{77}}
-\headcommand {\beamer@subsectionpages {78}{77}}
-\headcommand {\slideentry {1}{0}{13}{78/78}{}{2}}
+\headcommand {\slideentry {6}{3}{13}{78/78}{Classes}{1}}
 \headcommand {\beamer@framepages {78}{78}}
-\headcommand {\slideentry {1}{0}{14}{79/79}{}{2}}
+\headcommand {\slideentry {6}{3}{14}{79/79}{Classes}{1}}
 \headcommand {\beamer@framepages {79}{79}}
-\headcommand {\partentry {Session 3}{3}}
-\headcommand {\beamer@partpages {78}{79}}
-\headcommand {\beamer@sectionpages {78}{79}}
-\headcommand {\beamer@subsectionpages {78}{79}}
-\headcommand {\sectionentry {1}{Open Session}{80}{Open Session}{3}}
+\headcommand {\partentry {Session 2}{2}}
+\headcommand {\beamer@partpages {2}{79}}
+\headcommand {\beamer@sectionpages {55}{79}}
+\headcommand {\beamer@subsectionpages {66}{79}}
+\headcommand {\sectionentry {1}{mbed Platform}{80}{mbed Platform}{2}}
 \headcommand {\beamer@sectionpages {80}{79}}
 \headcommand {\beamer@subsectionpages {80}{79}}
-\headcommand {\slideentry {1}{0}{15}{80/80}{}{3}}
+\headcommand {\slideentry {1}{0}{15}{80/80}{}{2}}
 \headcommand {\beamer@framepages {80}{80}}
-\headcommand {\slideentry {1}{0}{16}{81/81}{}{3}}
+\headcommand {\slideentry {1}{0}{16}{81/81}{}{2}}
 \headcommand {\beamer@framepages {81}{81}}
+\headcommand {\partentry {Session 3}{3}}
 \headcommand {\beamer@partpages {80}{81}}
-\headcommand {\beamer@subsectionpages {80}{81}}
 \headcommand {\beamer@sectionpages {80}{81}}
-\headcommand {\beamer@documentpages {81}}
-\headcommand {\def \inserttotalframenumber {72}}
+\headcommand {\beamer@subsectionpages {80}{81}}
+\headcommand {\sectionentry {1}{Open Session}{82}{Open Session}{3}}
+\headcommand {\beamer@sectionpages {82}{81}}
+\headcommand {\beamer@subsectionpages {82}{81}}
+\headcommand {\slideentry {1}{0}{17}{82/82}{}{3}}
+\headcommand {\beamer@framepages {82}{82}}
+\headcommand {\slideentry {1}{0}{18}{83/83}{}{3}}
+\headcommand {\beamer@framepages {83}{83}}
+\headcommand {\beamer@partpages {82}{83}}
+\headcommand {\beamer@subsectionpages {82}{83}}
+\headcommand {\beamer@sectionpages {82}{83}}
+\headcommand {\beamer@documentpages {83}}
+\headcommand {\def \inserttotalframenumber {74}}
