@@ -255,7 +255,13 @@
 
 \begin{frame}
 	\frametitle{Exposure}
-	%TODO
+	Separate the interface and implementation of your class into separate files:
+	\begin{itemize}
+		\item Interface (definition) into header (classname.h)
+		\item Implementation (functions) into source (classname.cpp)
+		\item Include the header file in your source file
+		\item Don't forget to use the scope operator to put the functions into the class scope
+	\end{itemize}
 \end{frame}
 
 \begin{frame}[fragile]
