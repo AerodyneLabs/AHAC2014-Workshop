@@ -233,20 +233,19 @@
 
 \begin{frame}[fragile]
 	\frametitle{Refactoring}
-	Pull out as much common code you can into functions:
-	\begin{columns}[T]
-		\begin{column}{0.5\textwidth}
-			%TODO
-		\end{column}
-		\begin{column}{0.5\textwidth}
-			\lstinputlisting[]{code/fader/fader2.cpp}
-		\end{column}
-	\end{columns}
+	Pull out as much common code as you can into functions:
+	\lstinputlisting[]{code/fader/fader2.cpp}
 \end{frame}
 
 \begin{frame}[fragile]
 	\frametitle{Encapsulating}
-	%TODO
+	Encapsulate your code in a class by moving any relevant variables and functions into the class body:
+	\begin{itemize}
+		\item Variables should be private unless you have a good reason to make them public!
+		\item Provide get/set functions to access needed private variables
+		\item Most functions should be public
+		\item Use private functions to avoid repeating yourself
+	\end{itemize}
 \end{frame}
 
 \begin{frame}[fragile]
