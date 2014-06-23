@@ -180,8 +180,6 @@
 \headcommand {\beamer@framepages {77}{77}}
 \headcommand {\slideentry {6}{3}{13}{78/78}{Classes}{1}}
 \headcommand {\beamer@framepages {78}{78}}
-\headcommand {\slideentry {6}{3}{14}{79/79}{Classes}{1}}
-\headcommand {\beamer@framepages {79}{79}}
 \headcommand {\partentry {Session 2}{2}}
 \headcommand {\beamer@partpages {2}{79}}
 \headcommand {\beamer@sectionpages {55}{79}}
@@ -204,8 +202,8 @@
 \headcommand {\beamer@framepages {82}{82}}
 \headcommand {\slideentry {1}{0}{18}{83/83}{}{3}}
 \headcommand {\beamer@framepages {83}{83}}
-\headcommand {\beamer@partpages {82}{83}}
-\headcommand {\beamer@subsectionpages {82}{83}}
-\headcommand {\beamer@sectionpages {82}{83}}
+\headcommand {\beamer@partpages {2}{83}}
+\headcommand {\beamer@subsectionpages {66}{83}}
+\headcommand {\beamer@sectionpages {55}{83}}
 \headcommand {\beamer@documentpages {83}}
 \headcommand {\def \inserttotalframenumber {74}}

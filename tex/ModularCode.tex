@@ -175,11 +175,8 @@
 	You can create instances of it and use them like any other object.
 	\vfill
 	Class members are accessed with dot notation: {\ttfamily name.member}
-\end{frame}
-
-\begin{frame}
-	\frametitle{Class Scope}
-	%TODO
+	\vfill
+	Class scope can be accessed with the :: scope operator
 \end{frame}
 
 \begin{frame}[fragile]
@@ -187,9 +184,26 @@
 	\lstinputlisting[]{code/modular_code/class1.cpp}
 \end{frame}
 
-\begin{frame}
+\begin{frame}[fragile]
 	\frametitle{Header Files}
-	%TODO
+	Header files allow you to separate interface from implementation:
+	\begin{itemize}
+		\item Interface - Class and member definition in header file (.h)
+		\item Implementation - Function bodies go in source file (.cpp)
+	\end{itemize}
+	\vfill
+	Always use include guards in your header files:
+	\begin{lstlisting}[title=sample.h]
+		#ifndef SAMPLE_H_
+		#define SAMPLE_H_
+		...
+		#endif
+	\end{lstlisting}
+	\vfill
+	Include your headers with the \texttt{\#include} directive:
+	\begin{lstlisting}
+		#include "sample.h"
+	\end{lstlisting}
 \end{frame}
 
 \begin{frame}[fragile,squeeze]
